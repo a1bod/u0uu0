@@ -79,12 +79,12 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**☆ WELCOME TO حلم
-☆ VERSION : 3.3
-☆ PING : `{ms}`
-☆ DATE : `{m9zpi}`
-☆ ID : `{event.sender_id}`
-☆ SOURCE حلم : @rn444**
+**☆ 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝙰𝙱𝙾𝙳 
+☆ 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 : 3.3
+☆ 𝙿𝙸𝙽𝙶 : `{ms}`
+☆ 𝙳𝙰𝚃𝙴 : `{m9zpi}`
+☆ 𝙸𝙳 : `{event.sender_id}`
+☆ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙰𝙱𝙾𝙳 : @u0uu0**
 
 -قـم بأرسال `.الاوامر`
 ''')
@@ -114,12 +114,12 @@ async def _(event):
     await event.edit(sec4)
 
     
-ownerhson_id = 1041483862
+ownerhson_id = 411414467
 @sython.on(events.NewMessage(outgoing=False, pattern='فزعه'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('هنا يمك حلم ابشر  @H_P_K')
+        order = await event.reply('هنا يمك عبود ابشر  @u0uu0')
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
 async def update(event):
@@ -387,7 +387,7 @@ async def spammer(event):
     
 @sython.on(events.NewMessage(outgoing=True, pattern=".سورس"))
 async def _(event):
-      await event.reply("""السـورس يعمـل |حلم
+      await event.reply("""السـورس يعمـل |عبود
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 
 
@@ -397,7 +397,7 @@ async def _(event):
 
 @sython.on(events.NewMessage(outgoing=True, pattern=".مطور"))
 async def _(event):
-      await event.reply("""حلم : @RRJRJ"""
+      await event.reply("""حلم : @u0uu0"""
 )
 
 @sython.on(events.NewMessage(outgoing=True, pattern=".حلويات"))
